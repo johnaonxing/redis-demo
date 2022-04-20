@@ -45,6 +45,7 @@ class RedisStringTests {
         stringRedisTemplate.opsForHash().put("user:400","age","22");
         Map<Object, Object> entries = stringRedisTemplate.opsForHash().entries("user:400");
         System.out.println(entries);
+        System.out.println(entries);
     }
 
 }
